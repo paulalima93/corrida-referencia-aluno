@@ -56,7 +56,7 @@
     
     
   //-> Na classe Player.js, nós precisamos pegar do banco de dados a informação dos player adicionadas lá quando usamos addPlayer. Usamos essas informações 
-  na função play, onde pegamos as posições do player para manipular as sprites do carro
+  //na função play, onde pegamos as posições do player para manipular as sprites do carro
   
  static getPlayersInfo() {
     var playerInfoRef = database.ref("players");
